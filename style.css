@@ -349,6 +349,19 @@ form input, form textarea{
 }
 
 @media (max-width: 480px) {
+   nav{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul li{
+    width: 20%;
+    margin: 10px 5px;
+    text-align: center;
+  }
+  nav ul li a{
+    font-size: 18px;
+  }
   #header {
     width: 100%;
     height: auto;
